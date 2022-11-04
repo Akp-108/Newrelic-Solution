@@ -6,7 +6,7 @@ resource "newrelic_nrql_alert_condition" "test_alert" {
   account_id                     = 3649334
   policy_id                      = newrelic_alert_policy.Test_terra.id
   type                           = "static"
-  name                           = "HS-Syn-Alert"
+  name                           = "HS-Syn-Alert2"
   description                    = "Alert"
   runbook_url                    = "https://www.gmail.com"
   enabled                        = true
